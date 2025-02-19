@@ -6,9 +6,12 @@ data = {
     "Performance": [85,87,88,83,90,91,89,92,95,85]
 }
 df = pd.DataFrame(data)
+
+
 # df['Salary'] = df['Salary'] * 1.1
 # print(df)
 
-
+# increasing the salary with 5 %
+# updating existing column and adding new columns are different topics
 df["Salary"] = df['Salary'] * 1.05
 print(df)
